@@ -324,6 +324,7 @@ public:
         std::swap(b_, rhs.b_);
         std::swap(m_, rhs.m_);
         std::swap(c_, rhs.c_);
+        std::swap(p_, rhs.p_);
         M_.swap(rhs.M_);       
     }
 
